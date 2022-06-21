@@ -20,7 +20,8 @@ const HeroBanner = () => {
             <p className="hero-sub-heading"></p>
             <Link
               to={{ pathname: "https://www.instagram.com/belisacodes/" }}
-              target="_blank"
+              target="_parent"
+              rel="noopener noreferer"
               className="btn-portfolio-contact"
               data-aos="fade-up"
               data-aos-duration="1200"

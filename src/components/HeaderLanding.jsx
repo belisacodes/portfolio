@@ -114,23 +114,23 @@ const HeaderLanding = () => {
           offset={-90}
         >
           <li className="nav-item">
-            <a href="#product" className="nav-link" onClick={handleClick}>
+            <a className="nav-link" onClick={handleClick}>
               Product
             </a>
           </li>
           <li className="nav-item">
-            <a href="#skills" className="nav-link" onClick={handleClick}>
+            <a className="nav-link" onClick={handleClick}>
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a href="#work" className="nav-link" onClick={handleClick}>
+            <a  className="nav-link" onClick={handleClick}>
               Work
             </a>
           </li>
 
           <li className="nav-item">
-            <a href="#pricing" className="nav-link" onClick={handleClick}>
+            <a className="nav-link" onClick={handleClick}>
               Pricing
             </a>
           </li>
