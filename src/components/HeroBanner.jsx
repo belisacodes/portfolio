@@ -19,14 +19,15 @@ const HeroBanner = () => {
             </h1>
             <p className="hero-sub-heading"></p>
             <Link
-              to="/"
+              to={{ pathname: "https://www.instagram.com/belisacodes/" }}
+              target="_blank"
               className="btn-portfolio-contact"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
               {" "}
-              <a href="https://calendly.com/belisacodes/30min">Contact me! </a>
+              <a>Contact me! </a>
             </Link>{" "}
             <p className="term-text">
               Don't hesitate and contact me for any project or question!{" "}

@@ -39,7 +39,6 @@ const CopyRight = () => {
         <p className="copyright text-center">
           Copyright @{new Date().getFullYear()}{" "}
           <a
-            href="https://themeforest.net/user/ib-themes/portfolio"
             target="_blank"
             rel="noopener noreferrer"
           >
