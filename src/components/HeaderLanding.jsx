@@ -99,7 +99,7 @@ const HeaderLanding = () => {
       <div className={click ? "mobile-menu  menu-open" : "mobile-menu"}>
         <div className="logo order-md-1">
           <Link to="/doc-landing">
-            <img src="images/logo/deski_06.svg" alt="brand" />
+            <img src="images/logo/logo.png" alt="brand" />
           </Link>
           <div className="fix-icon text-dark" onClick={handleClick}>
             <img src="images/icon/close.svg" alt="icon" />

@@ -220,6 +220,7 @@
                         Object(o.jsx)("li", {
                           className: "nav-item",
                           children: Object(o.jsx)("a", {
+                            href: "#product",
                             className: "nav-link",
                             onClick: d,
                             children: "Product",
@@ -228,6 +229,7 @@
                         Object(o.jsx)("li", {
                           className: "nav-item",
                           children: Object(o.jsx)("a", {
+                            href: "#skills",
                             className: "nav-link",
                             onClick: d,
                             children: "Skills",
@@ -236,6 +238,7 @@
                         Object(o.jsx)("li", {
                           className: "nav-item",
                           children: Object(o.jsx)("a", {
+                            href: "#work",
                             className: "nav-link",
                             onClick: d,
                             children: "Work",
@@ -244,6 +247,7 @@
                         Object(o.jsx)("li", {
                           className: "nav-item",
                           children: Object(o.jsx)("a", {
+                            href: "#pricing",
                             className: "nav-link",
                             onClick: d,
                             children: "Pricing",
@@ -294,18 +298,17 @@
                       }),
                       Object(o.jsx)("p", { className: "hero-sub-heading" }),
                       Object(o.jsxs)(r.b, {
-                        to: {
-                          pathname: "https://www.instagram.com/belisacodes/",
-                        },
-                        target: "_parent",
-                        rel: "noopener noreferer",
+                        to: "/",
                         className: "btn-portfolio-contact",
                         "data-aos": "fade-up",
                         "data-aos-duration": "1200",
                         "data-aos-delay": "200",
                         children: [
                           " ",
-                          Object(o.jsx)("a", { children: "Contact me! " }),
+                          Object(o.jsx)("a", {
+                            href: "https://calendly.com/belisacodes/30min",
+                            children: "Contact me! ",
+                          }),
                         ],
                       }),
                       " ",
@@ -428,7 +431,7 @@
           });
         },
         u = t(9),
-        v = function () {
+        f = function () {
           return Object(o.jsx)(o.Fragment, {
             children: Object(o.jsxs)(u.d, {
               children: [
@@ -508,7 +511,7 @@
             }),
           });
         },
-        f = function () {
+        v = function () {
           var e = Object(n.useState)(!1),
             s = Object(l.a)(e, 2);
           s[0], s[1];
@@ -532,7 +535,7 @@
                       className: "container",
                       children: Object(o.jsx)("div", {
                         className: "sldier-wrapper",
-                        children: Object(o.jsx)(v, {}),
+                        children: Object(o.jsx)(f, {}),
                       }),
                     }),
                     Object(o.jsx)("img", {
@@ -822,7 +825,7 @@
                 children: Object(o.jsx)(N.a, {
                   exact: !0,
                   path: "/",
-                  component: f,
+                  component: v,
                 }),
               }),
             ],
@@ -915,7 +918,7 @@
               })
             );
           }),
-        _ = function (e) {
+        D = function (e) {
           e &&
             e instanceof Function &&
             t
@@ -931,9 +934,9 @@
               });
         };
       t(56);
-      a.a.render(Object(o.jsx)(S, {}), document.getElementById("root")), _();
+      a.a.render(Object(o.jsx)(S, {}), document.getElementById("root")), D();
     },
   },
   [[57, 1, 2]],
 ]);
-//# sourceMappingURL=main.f5c52cd0.chunk.js.map
+//# sourceMappingURL=main.45a15fe4.chunk.js.map

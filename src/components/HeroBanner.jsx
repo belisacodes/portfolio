@@ -28,7 +28,13 @@ const HeroBanner = () => {
               data-aos-delay="200"
             >
               {" "}
-              <a>Contact me! </a>
+              <a
+                href={"https://www.instagram.com/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Let's talk!
+              </a>
             </Link>{" "}
             <p className="term-text">
               Don't hesitate and contact me for any project or question!{" "}
