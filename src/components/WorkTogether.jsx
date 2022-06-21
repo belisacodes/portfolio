@@ -21,7 +21,10 @@ const WorkTogether = () => {
               Do you have an idea that you don't know how to implement? Let's do
               it!{" "}
             </p>
-            <Link to="/" className="btn-portfolio-contact">
+            <Link
+              to="https://calendly.com/belisacodes/30min"
+              className="btn-portfolio-contact"
+            >
               Contact me!{" "}
             </Link>
           </div>

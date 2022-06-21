@@ -26,7 +26,7 @@ const HeroBanner = () => {
               data-aos-delay="200"
             >
               {" "}
-              <a href="mailto:belisacodes@gmail.com">Contact me! </a>
+              <a href="https://calendly.com/belisacodes/30min">Contact me! </a>
             </Link>{" "}
             <p className="term-text">
               Don't hesitate and contact me for any project or question!{" "}
