@@ -60,30 +60,20 @@ const HeaderLanding = () => {
                     offset={-90}
                   >
                     <li className="nav-item">
-                      <a href="#portfolio" className="nav-link">
-                        Portfolio
-                      </a>
+                      <a className="nav-link">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                      <a href="#skills" className="nav-link">
-                        Skills
-                      </a>
+                      <a className="nav-link">Skills</a>
                     </li>
                     <li className="nav-item">
-                      <a href="#about" className="nav-link">
-                        About
-                      </a>
+                      <a className="nav-link">About</a>
                     </li>
 
                     <li className="nav-item">
-                      <a href="#follow" className="nav-link">
-                        Follow me
-                      </a>
+                      <a className="nav-link">Follow me</a>
                     </li>
                     <li className="nav-item">
-                      <a href="#work" className="nav-link">
-                        Work Together
-                      </a>
+                      <a className="nav-link">Work Together</a>
                     </li>
                   </Scrollspy>
                 </div>
@@ -99,7 +89,7 @@ const HeaderLanding = () => {
       <div className={click ? "mobile-menu  menu-open" : "mobile-menu"}>
         <div className="logo order-md-1">
           <Link to="/doc-landing">
-            <img src="images/logo/logo.png" alt="brand" />
+            <img src="images/logo/logo.svg" alt="brand" />
           </Link>
           <div className="fix-icon text-dark" onClick={handleClick}>
             <img src="images/icon/close.svg" alt="icon" />
@@ -124,7 +114,7 @@ const HeaderLanding = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a  className="nav-link" onClick={handleClick}>
+            <a className="nav-link" onClick={handleClick}>
               Work
             </a>
           </li>
@@ -135,7 +125,7 @@ const HeaderLanding = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#feedback" className="nav-link" onClick={handleClick}>
+            <a className="nav-link" onClick={handleClick}>
               Feedback
             </a>
           </li>

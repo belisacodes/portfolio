@@ -22,11 +22,23 @@ const WorkTogether = () => {
               it!{" "}
             </p>
             <Link
-              to="https://calendly.com/belisacodes/30min"
+              to={{ pathname: "https://www.instagram.com/belisacodes/" }}
+              target="_parent"
+              rel="noopener noreferer"
               className="btn-portfolio-contact"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="200"
             >
-              Contact me!{" "}
-            </Link>
+              {" "}
+              <a
+                href={"https://calendly.com/belisacodes/30min"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Let's meet!
+              </a>
+            </Link>{" "}
           </div>
           {/* /.text-wrapper */}
         </div>

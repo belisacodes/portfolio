@@ -13,11 +13,14 @@ const HeroBanner = () => {
 
         <div className="row">
           <div className="col-lg-6">
-            <h2>Hi, I'm Belisa</h2>
+            <h3>Hello, I'm a</h3>
             <h1 className="hero-heading">
               <span>Front-End</span> Developer.
             </h1>
-            <p className="hero-sub-heading"></p>
+            <p className="hero-sub-heading">
+              Hi I'm Belisa Rus, a 23 years-old passionate programmer based in
+              Mallorca.{" "}
+            </p>
             <Link
               to={{ pathname: "https://www.instagram.com/belisacodes/" }}
               target="_parent"
@@ -29,16 +32,13 @@ const HeroBanner = () => {
             >
               {" "}
               <a
-                href={"https://www.instagram.com/"}
+                href={"https://www.instagram.com/belisacodes/"}
                 target="_blank"
                 rel="noreferrer"
               >
                 Let's talk!
               </a>
             </Link>{" "}
-            <p className="term-text">
-              Don't hesitate and contact me for any project or question!{" "}
-            </p>
           </div>
         </div>
         {/* End .row */}

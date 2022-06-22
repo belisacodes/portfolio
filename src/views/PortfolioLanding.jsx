@@ -72,8 +72,9 @@ const PortfolioLanding = () => {
                   </h3>
                   <p>
                     I started programming 3 months ago.<br></br>I began with
-                    HTML, CSS, JavaScript, and Vue. <br></br>I've passion for
-                    creating intuitive, dynamic user experience{" "}
+                    HTML, CSS, JavaScript, and Vue. I am currently starting
+                    ReactJS. <br></br>I've passion for creating intuitive,
+                    dynamic user experience{" "}
                   </p>
                 </div>
                 {/*  /.text-wrapper */}
@@ -232,8 +233,8 @@ const PortfolioLanding = () => {
                     <span>Follow me</span> on Social Media
                   </h3>
                   <p>
-                    Created a platform on Instagram to share my journey and
-                    connect with everyone
+                    I created an account on Instagram to share my journey and
+                    connect with everyone! 
                   </p>
                 </div>
                 {/* /.text-wrapper */}
@@ -275,7 +276,7 @@ const PortfolioLanding = () => {
       {/* /.block-work-with-me */}
 
       {/* =====================================================
-				Fancy Feature Seventeen
+				Fancy Feature
 			===================================================== */}
       <div className="fancy-feature mt-150 md-mt-90" id="product">
         <div className="bg-wrapper">

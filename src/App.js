@@ -17,11 +17,11 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>BelisaCodes- Front-End Developer</title>
+        <title>BelisaCodes | Front-End Developer</title>
         <meta property="og:site_name" content="belisacodes" />
         <meta property="og:url" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="BelisaCodes- Front-End Developer" />
+        <meta property="og:title" content="BelisaCodes | Front-End Developer" />
         <meta
           name="keywords"
           content="agency, front-end developer, business, portfolio, software company"
